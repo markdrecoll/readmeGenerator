@@ -8,7 +8,7 @@
    - [Contributing](#Contributing)
    - [Tests](#Tests)
    - [Questions](#Questions)
-   - [Video](#Video)  
+   - [Demonstration](#Demonstration)  
   ## Installation
   Once you have the program, run npm install to install the dependencies.
   ## Usage
@@ -26,5 +26,5 @@ This project is licensed under Apache
 
   GitHub: [markdrecoll](https://github.com/markdrecoll/)
 
-  ## Video Demonstration
+  ## Demonstration
   https://user-images.githubusercontent.com/77694281/115628165-d3c39780-a2c5-11eb-9b61-2d8dffda0339.mp4
