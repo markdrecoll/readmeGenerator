@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -30,9 +31,10 @@ const questions = [
         name: 'usage'
     },
     {
-        type: 'input',
-        message: 'License: ',
-        name: 'license'
+        type: 'list',
+        message: 'What is your license?',
+        name: 'license',
+        choices: ['license01', 'license02', 'license03']
     },
     {
         type: 'input',
@@ -48,18 +50,12 @@ const questions = [
         type: 'input',
         message: 'Questions: ',
         name: 'questions'
-    },
-    {
-        type: 'list',
-        message: 'What is your license?',
-        name: 'license',
-        choices: ['Email', 'Text', 'Phone Call']
-    }
+    }    
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(theFileName, data) {
-    fs.writeFile(theFileName, JSON.stringify(data, null, '\t'), (err) =>
+    fs.writeFile(theFileName, generateMarkdown(data), (err) =>
         err ? console.error(err) : console.log('Success!')
     );
 }
