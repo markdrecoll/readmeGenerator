@@ -26,4 +26,4 @@ This project is licensed under Apache
   GitHub: [markdrecoll](https://github.com/markdrecoll/)
 
   ## Video Demonstration
-  ![video_demonstration](/media/readmeGenerator_preview.mp4)
+  ![video_demonstration](./media/readmeGenerator_preview.mp4)
