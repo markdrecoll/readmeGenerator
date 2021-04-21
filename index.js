@@ -31,7 +31,7 @@ const questions = [
         type: 'list',
         message: 'What is your license?',
         name: 'license',
-        choices: ['Apache', 'Boost', 'BSD', 'EPL', 'MIT', 'MPL','ODC_BY']
+        choices: ['Apache', 'Boost', 'BSD', 'EPL', 'MIT', 'MPL', 'ODC_BY']
     },
     {
         type: 'input',
@@ -52,7 +52,7 @@ const questions = [
         type: 'input',
         message: 'Email: ',
         name: 'userEmail'
-    } 
+    }
 ];
 
 // creates a file with the name that the user inputted
@@ -70,7 +70,7 @@ function init() {
             const filename = `${response.title.toLowerCase().split('').join('')}.md`;
             writeToFile(filename, response);
         }
-    );
+        );
 }
 
 // calls the initialize function
