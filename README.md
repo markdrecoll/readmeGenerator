@@ -1,6 +1,3 @@
-
-https://user-images.githubusercontent.com/77694281/115628165-d3c39780-a2c5-11eb-9b61-2d8dffda0339.mp4
-
 # Read Me Generator
   ## Description
   This is a command-line application that dynamically generates a readme file from a user's input. It uses the inquirer package to obtain user information.
@@ -29,4 +26,4 @@ This project is licensed under Apache
   GitHub: [markdrecoll](https://github.com/markdrecoll/)
 
   ## Video Demonstration
-  ![video_demonstration](./media/readmeGenerator_preview.mp4)
+  https://user-images.githubusercontent.com/77694281/115628165-d3c39780-a2c5-11eb-9b61-2d8dffda0339.mp4
