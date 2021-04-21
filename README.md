@@ -7,7 +7,8 @@
    - [License](#License)
    - [Contributing](#Contributing)
    - [Tests](#Tests)
-   - [Questions](#Questions)  
+   - [Questions](#Questions)
+   - [Video Demonstration](#Video Demonstration)  
   ## Installation
   Once you have the program, run npm install to install the dependencies.
   ## Usage
