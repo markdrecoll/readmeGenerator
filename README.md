@@ -8,7 +8,7 @@
    - [Contributing](#Contributing)
    - [Tests](#Tests)
    - [Questions](#Questions)
-   - [Demonstration](#Demonstration)  
+   - [Demonstration](#Demonstration)
   ## Installation
   Once you have the program, run npm install to install the dependencies.
   ## Usage

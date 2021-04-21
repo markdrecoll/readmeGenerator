@@ -22,7 +22,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `\nThis project is licensed under ${license}`;
+    return `\nThis project is licensed under ${license}.`;
   }
   return '';
 }
