@@ -58,7 +58,7 @@ const questions = [
 // creates a file with the name that the user inputted
 function writeToFile(theFileName, data) {
     fs.writeFile(theFileName, generateMarkdown(data), (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('You successfully created a new read me file.')
     );
 }
 

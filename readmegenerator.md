@@ -12,13 +12,13 @@
   ## Usage
   While in the root folder, run a terminal and type "node index.js". You will then be prompted for input.
   ## License
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-  ## License 
-This project is licensed under Apache
+This project is licensed under MIT
+  ![License](https://img.shields.io/badge/License-MIT%202.0-blue.svg)
   ## Contributing
   Part of this was built in collaboration with Levi Kane.
   ## Tests
   >npm run test
   ## Questions
-  Email: undefined;
-  [GitHub](https://github.com/undefined/)
+  Email: markdrecoll@gmail.com
+
+  GitHub: [markdrecoll](https://github.com/markdrecoll/)
