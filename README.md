@@ -18,8 +18,5 @@
   >npm run test
   ## Questions
   Email: markdrecoll@gmail.com
-
-  GitHub: [markdrecoll](https://github.com/markdrecoll/)
-
   ## Demonstration
   https://user-images.githubusercontent.com/77694281/115628165-d3c39780-a2c5-11eb-9b61-2d8dffda0339.mp4
